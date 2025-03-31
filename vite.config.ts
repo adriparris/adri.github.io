@@ -13,10 +13,10 @@ export default defineConfig({
     chunkSizeWarningLimit: 500, // Prevents large chunk warnings
     rollupOptions: {
       output: {
-        manualChunks(id) {
-          if (id.includes("node_modules")) {
-            return "vendor"; // Moves dependencies into a separate file
-          }
+        // manualChunks(id) {
+        //   if (id.includes("node_modules")) {
+        //     return "vendor"; // Moves dependencies into a separate file
+        //   }
         },
       },
     },

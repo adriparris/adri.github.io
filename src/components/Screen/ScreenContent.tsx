@@ -1,13 +1,9 @@
 import { useState, useRef, useEffect } from "react";
 import { gsap } from "gsap";
-// import Porty1 from "../../assets/Cover-Card owner.png";
-// import Porty2 from "../../assets/Cover-ODO.png";
-// import Porty3 from "../../assets/Design System.png";
 import { X, Minus, Minimize2 } from "lucide-react";
 import AdriCursor from "../../assets/SVG/adri-cursor.svg";
 import Figma from "../../assets/SVG/Figma-logo.svg";
 import Code from "../../assets/SVG/code.svg";
-// import FigmaFrame from "./FigmaFrame";
 import DesignTab from "./DesignTab";
 import CodeTab from "./CodeTab";
 
