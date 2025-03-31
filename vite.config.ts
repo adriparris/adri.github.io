@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    compression(), // Enables Brotli & Gzip compression
+    compression(), 
   ],
   build: {
-    chunkSizeWarningLimit: 1000, // Prevents large chunk warnings
+    chunkSizeWarningLimit: 1000, 
       },
     },
   );
