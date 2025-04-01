@@ -1,9 +1,9 @@
 import React from "react";
 import FigmaFrame from "./FigmaFrame";
-import Porty1 from "../../assets/Cover-Card owner.png";
-import Porty2 from "../../assets/Cover-ODO.png";
+import Porty1 from "../../assets/Juni.webp";
+import Porty2 from "../../assets/odo.webp";
 import Porty3 from "../../assets/Design System.png";
-import ESP from "../../assets/ESP.png";
+import ESP from "../../assets/esp.webp";
 import CaseStudyInfo from "./CaseStudyInfo";
 
 export type FigmaUIProps = {

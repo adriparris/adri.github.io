@@ -39,7 +39,7 @@ export default {
     theme: {
       extend: {
         fontFamily: {
-          body: ["Poppins", "sans-serif"],
+          body: ["geist", "sans-serif"],
           code: ["Source Code Pro", "monospace"],
         },
         spacing: {

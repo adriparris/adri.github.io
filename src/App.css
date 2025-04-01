@@ -1,8 +1,8 @@
 @import "tailwindcss";
-@import '@fontsource/poppins';
+@import '@fontsource/geist';
 
 @theme {
-    --font-body: "Poppins", ui-sans-serif, system-ui, sans-serif;
+    --font-body: "geist", ui-sans-serif, system-ui, sans-serif;
     --font-code: "Source Code Pro", monospace;
   }
 
