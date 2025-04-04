@@ -16,12 +16,12 @@ function App() {
             <BrushTexture color="grey" blendMode="multiply" opacity={0.2} />
           </div>
         </div>
-        <div className="absolute justify-center  w-full h-screen flex min-h-[794px]">
+        <div className="absolute justify-center  w-full h-screen flex min-h-[794px] z-20">
           {" "}
           <OfficeScene />
         </div>
       </div>
-      <div className="flex p-5 h-15 absolute top-0 left-0 text-sm w-full justify-between position-fixed ">       
+      <div className="flex p-5 h-15 absolute top-0 left-0 text-sm w-full justify-between z-10">       
          <div className="flex-col">
           <h1>Adri Parris </h1>
           <h2 className="text-xs ">Designer |
