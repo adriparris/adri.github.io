@@ -39,7 +39,7 @@ export default {
     theme: {
       extend: {
         fontFamily: {
-          body: ["geist", "sans-serif"],
+          body: ["Satoshi", "sans-serif"],
           code: ["Source Code Pro", "monospace"],
         },
         spacing: {

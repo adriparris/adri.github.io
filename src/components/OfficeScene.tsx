@@ -9,7 +9,7 @@ import littlePlant from "../assets/SVG/LittlePlant.svg";
 import Screen from "./Screen/ScreenContent";
 import Clock from "./Clock";
 import "../App.css";
-import BrushTexture4 from "./Textures/Texture4";
+// import BrushTexture4 from "./Textures/Texture4";
 import ShadowLuna from "../assets/SVG/Shadows/ShadowDog.svg";
 import ShadowLittlePot from "../assets/SVG/Shadows/ShadowLilPot.svg";
 import ShadowSill from "../assets/SVG/Shadows/ShadowSill.svg";
@@ -34,7 +34,7 @@ const OfficeScene = () => {
             }}
           >
             {" "}
-            <BrushTexture4 blendMode="soft-light" color="white" opacity={0.1} />
+            {/* <BrushTexture4 blendMode="soft-light" color="white" opacity={0.1} /> */}
           </div>
           <img
             src={rug}

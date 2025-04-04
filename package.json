@@ -14,7 +14,6 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@fontsource/geist": "^5.2.5",
     "@fontsource/source-code-pro": "^5.2.5",
     "@headlessui/react": "^2.2.0",
     "@tailwindcss/vite": "^4.0.14",
