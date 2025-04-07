@@ -7,6 +7,24 @@ import "./App.css";
 function App() {
   return (
     <>
+          <div className="flex p-2 text-sm w-full justify-between z-10 bg-stone-50 dark:bg-stone-300 opacity-60">       
+         <div className="flex-col">
+          <h1>Adri Parris </h1>
+          <h2 className="text-xs ">Designer |
+             Engineer</h2>
+        </div>
+        <div className="flex items-center">
+          <a
+            className="flex cursor-pointer "
+            href="https://adri-parris.notion.site/resume"
+          >
+            Resume <ArrowRight size={16} className="ml-1 mt-0.5" />
+          </a>
+          <a className="ml-2 cursor-pointer" href="mailto:adriparris.work@gmail.com">
+            Contact
+          </a>
+        </div>
+      </div>
       <div className="flex w-full h-screen min-h-[794px]">
         <div className="absolute w-full h-screen flex flex-col z-0 min-h-[794px]">
           <div className="absolute top-0 h-5/8 w-full bg-stone-50 dark:bg-stone-300 opacity-60 -z-50">
@@ -21,24 +39,7 @@ function App() {
           <OfficeScene />
         </div>
       </div>
-      <div className="flex p-5 h-15 absolute top-0 left-0 text-sm w-full justify-between z-10">       
-         <div className="flex-col">
-          <h1>Adri Parris </h1>
-          <h2 className="text-xs ">Designer |
-             Engineer</h2>
-        </div>
-        <div className="flex">
-          <a
-            className="flex cursor-pointer"
-            href="https://adri-parris.notion.site/resume"
-          >
-            Resume <ArrowRight size={16} className="ml-1 mt-0.5" />
-          </a>
-          <a className="ml-2 cursor-pointer" href="mailto:adriparris.work@gmail.com">
-            Contact
-          </a>
-        </div>
-      </div>
+
     </>
   );
 }
